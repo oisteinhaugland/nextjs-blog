@@ -5,13 +5,11 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'Øistein'
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'Next.js Sample Website - Hosted by Vercel'
 
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
-
-
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
